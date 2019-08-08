@@ -5,8 +5,6 @@ descriptografado "saida_descript.txt"  */
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 void Cript(char s[]);
 void Descript(char s[]);
 
@@ -41,7 +39,6 @@ void Descript(char s[]){
         fprintf(file, "%c", s[i]);
 
     fclose(file);
-
 }
 
 void Cript(char s[]){
@@ -66,5 +63,4 @@ void Cript(char s[]){
         fprintf(file, "%c", s[i]);
 
     fclose(file);
-
 }
