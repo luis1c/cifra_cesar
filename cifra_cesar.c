@@ -9,15 +9,15 @@ void Cript(char s[]);
 void Descript(char s[]);
 
 int main(){
-    char teste[999];
+    char frases[999];
     FILE * file;
     file = fopen("entrada.txt","rt");
     if(file == NULL)
         exit(0);
-    for(int i = 0; teste[i] != '\0' ; i++)
-        fscanf(file, "%[^\n]", &teste[i]);
-    Cript(teste); //funcao encriptar
-    Descript(teste);
+    for(int i = 0; frases[i] != '\0' ; i++)
+        fscanf(file, "%[^\n]", &frases[i]);
+    Cript(frases); //funcao encriptar
+    Descript(frases);
     fclose(file);
 
     return 0;
