@@ -16,7 +16,7 @@ int main(){
         exit(0);
     for(int i = 0; frase[i] != '\0' ; i++)
         fscanf(file, "%[^\n]", &frase[i]);
-    Cript(frase);
+    Cript(frase); //funcao encriptar
     Descript(frase);
     fclose(file);
 
