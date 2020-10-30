@@ -2,8 +2,8 @@
 um criptografado com a cífra de César "saida_cript.txt" e outro 
 descriptografado "saida_descript.txt"  */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> //biblioteca
+#include <stdlib.h> //biblioteca
 
 void Cript(char s[]);
 void Descript(char s[]);
